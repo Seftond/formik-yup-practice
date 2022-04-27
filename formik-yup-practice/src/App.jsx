@@ -1,3 +1,8 @@
+//Allows us to:
+//1. Manage form state
+//2. Handle form submission
+//3. Provide validation and error messages
+
 import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import * as Yup from 'yup'
